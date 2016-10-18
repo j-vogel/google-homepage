@@ -1,0 +1,177 @@
+body {
+  font-family: arial,sans-serif;
+  font-size: 12px;
+  background: white;
+  color: #222;
+}
+
+.top_bar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.left_menu {
+  float: right;
+  width: auto;
+}
+
+.left_menu ul {
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+.left_menu ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.left_menu ul li a{
+  text-decoration: none;
+  color: #777;
+  font-family: arial,sans-serif;
+  font-size: 12px;
+}
+
+.left_menu ul li a:hover{
+  text-decoration: underline;
+}
+
+#grid_icon {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background: url('../images/apps_grey.png');
+  vertical-align: middle;
+}
+
+#grid_icon:hover {
+  background: url('../images/apps_black.png');
+  }
+
+#sign_in {
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  line-height: 28px;
+  padding: 1px 12px;
+  font-weight: bold;
+  font-size: 13px;
+  background: #4285f4;
+  color: #fff;
+}
+
+#sign_in:hover {
+  text-decoration: none;
+}
+
+#main {
+  background: none;
+  margin: 10px 0;
+  margin-top: 160px;
+  padding: 5px;
+}
+
+#main div {
+  background: none;
+  margin: 0 auto;
+  color: white;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+#logo {
+    width: 250px;
+}
+
+#search_box {
+    width: 450px;
+}
+
+#search_box input {
+  width: 100%;
+  height: 35px;
+  background-image: url('../images/google_mic.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e1e1e1;
+}
+
+#search_box input:hover {
+  border-color: #b1b1b1;
+}
+
+#search_box input:active {
+  border-color: #3369e8;
+}
+
+#search_buttons {
+  width: 250px;
+}
+
+#google_button, #lucky_button {
+  height: 35px;
+  border-radius: 2px;
+  color: #777;
+  background-color: #f1f1f1;
+  border: none;
+  font-weight: bold;
+}
+
+#google_button:hover, #lucky_button:hover {
+  border: 1px solid #b1b1b1;
+  color:#000;
+  box-shadow: 1px 1px rgba(0,0,0,0.1);
+}
+
+#google_button {
+  float: left;
+  width: 112px;
+}
+
+#lucky_button {
+  float:right;
+  width: 132px;
+}
+
+#bottom_bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  background-color: #f1f1f1;
+}
+
+#bottom_left {
+  float: left;
+  width: auto;
+}
+
+#bottom_right {
+  float: right;
+  width: auto;
+}
+
+#bottom_left ul, #bottom_right ul {
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+#bottom_left ul li, #bottom_right ul li {
+  display: inline;
+  padding: 0 15px;
+}
+
+#bottom_left ul li a, #bottom_right ul li a {
+  text-decoration: none;
+  color: #777;
+  font-family: arial,sans-serif;
+  font-size: 12px;
+}
+
+#bottom_left ul li a:hover , #bottom_right ul li a:hover {
+  text-decoration: underline;
+}
